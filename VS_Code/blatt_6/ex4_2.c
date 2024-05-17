@@ -3,12 +3,11 @@
 int main()
 {
 
-    long long fib[50]; //todo:versuche ohne []
+    //long long fib[50]; //todo:versuche ohne []
     long long *p_fib;
     long long f_k, f_1 = 1, f_2 = 0;
 
-    p_fib = fib;
-
+    // int n = 0;
     //while (*p_fib < 50)
     // while(n <= 50)
     // {

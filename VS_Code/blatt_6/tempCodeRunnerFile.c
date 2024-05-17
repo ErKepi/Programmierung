@@ -1,1 +1,1 @@
-    s[strcspn(s, "\n")] = 0;
+stdin

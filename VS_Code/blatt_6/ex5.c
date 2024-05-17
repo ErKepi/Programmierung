@@ -2,9 +2,11 @@
 
 int hoch2(int i){
 
-    int result = i * i; 
+    //int result = i * i; 
 
-    return result;   
+    //return result;   
+
+    return i*i;
 }
 
 int main(){ 

@@ -10,10 +10,8 @@ int main(){
     p_input = input;
 
     printf("Eingabe: ");
-    fgets(input, 50, stdin);
-
-    input[strcspn(input, "\n")] = 0;
-
+    gets(input);
+    
     for (int i = 0; *p_input != '\0'; i++)
     {
         count++;

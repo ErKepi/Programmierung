@@ -6,10 +6,6 @@ void dreh(const char *s){
     char reversedS[50];
     int length;
 
-    //fgets(input, 50, stdin);
-
-    //input[strcspn(input, "\n")] = 0;
-
     length = strlen(s);
 
     for (int i = 0; i <= length; i++)
@@ -28,9 +24,7 @@ int main(){
 
     printf("Geben Sie etwas ein: ");
 
-    fgets(s, 50, stdin);
-
-    s[strcspn(s, "\n")] = 0;
+    gets(s);
 
     dreh(s);
 

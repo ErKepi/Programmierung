@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Kann in der Pruefung drankommen
+// Kann in der Pruefung drankommen - Auswendig lernen
 
 int main(){
 
